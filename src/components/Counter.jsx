@@ -72,6 +72,15 @@ export default function Counter() {
         >
           Increment input value
         </button>
+
+        {/* <br />
+        <button
+          className="btn btn-success"
+          aria-label="Increment async value"
+          onClick={() => dispatch(incrementByAsync(Number(reactCount) || 1))}
+        >
+          Increment by async
+        </button> */}
       </div>
     </div>
   );

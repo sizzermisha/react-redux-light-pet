@@ -25,7 +25,18 @@ export const counterSlice = createSlice({
   },
 });
 
-export const { incrementByReactAmount, inputChangeAmount, increment, decrement, incrementByAmount } =
-  counterSlice.actions;
+// export const incrementByAsync = (amount) => (dispatch) => {
+//   setTimeout(() => {
+//     dispatch(incrementByReactAmount(amount));
+//   }, 1000);
+// };
+
+export const {
+  incrementByReactAmount,
+  inputChangeAmount,
+  increment,
+  decrement,
+  incrementByAmount,
+} = counterSlice.actions;
 
 export default counterSlice.reducer;
